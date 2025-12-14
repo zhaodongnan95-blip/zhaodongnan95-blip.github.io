@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>1112</title>
+  <style>
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial;max-width:980px;margin:24px auto;padding:0 12px;}
+    a{color:inherit}
+    .video-wrap{position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;background:#000;}
+    .video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;}
+    .top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px;}
+    .btn{padding:8px 12px;border:1px solid #ddd;border-radius:10px;text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="top">
+    <h1 style="margin:0;">22223</h1>
+    <a class="btn" href="./index.html">返回视频列表</a>
+  </div>
+
+  <div class="video-wrap">
+    <ifram
+      src="https://player.bilibili.com/player.html?isOutside=true&bvid=BV1Ts2RBmEM1&p=1"
+      scrolling="no"
+      frameborder="0"
+      allowfullscreen="true">
+    </iframe>
+  </div>
+</body>
+</html>
