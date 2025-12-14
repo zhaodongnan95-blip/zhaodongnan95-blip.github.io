@@ -3,6 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- 关键：尽量不发送 referrer -->
+  <meta name="referrer" content="no-referrer" />
+
   <title>B站视频</title>
   <style>
     body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial;max-width:980px;margin:24px auto;padding:0 12px;}
@@ -21,6 +25,7 @@
 
   <div class="video-wrap">
     <iframe
+      referrerpolicy="no-referrer"
       src="https://player.bilibili.com/player.html?bvid=BV1vvmFBLESv&p=1&poster=1&muted=0"
       scrolling="no"
       frameborder="0"
@@ -29,3 +34,4 @@
   </div>
 </body>
 </html>
+
